@@ -21,22 +21,27 @@ public class JpaMain {
             // 저장
             Team team = new Team();
             team.setName("TeamA");
+//            team.getMembers().add(member);
             em.persist(team);
 
             Member member = new Member();
             member.setUsername("member1");
-            member.setTeam(team);
+            member.changeTeam(team);
             em.persist(member);
 
+//            team.getMembers().add(member); > member의 team getter,setter에서 코드 생성하였으므로 지움.
+
             em.flush();
-            em.clear();
+            em.clear(); // > flush, clear 를 하면 1차캐시 삭제 > db에서 select 실행함
 
-            Member findMember = em.find(Member.class, member.getId());
-            List<Member> members = findMember.getTeam().getMembers();
+            Team findTeam = em.find(Team.class, team.getId()); // 1차 캐시에 있음
+            List<Member> members = findTeam.getMembers();
 
+            System.out.println("===============================================================");
             for(Member m : members) {
                 System.out.println("m = " + m.getUsername());
             }
+            System.out.println("===============================================================");
 
 
             tx.commit();
