@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0206 양방향연관관계">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" afterDir="false" />
+    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0216 다대다 연관관계 청강중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +129,9 @@
       <workItem from="1738852145566" duration="1675000" />
       <workItem from="1739022317235" duration="5636000" />
       <workItem from="1739195176858" duration="682000" />
-      <workItem from="1739707671386" duration="1816000" />
+      <workItem from="1739707671386" duration="1885000" />
+      <workItem from="1739798542776" duration="77000" />
+      <workItem from="1739799286227" duration="630000" />
     </task>
     <task id="LOCAL-00001" summary="0205 jpa ㄷㅏㄴ방향 연관관계 실습코드 추가(강의 미완강)">
       <option name="closed" value="true" />
@@ -157,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739025315558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0216 다대다 연관관계 청강중">
+      <option name="closed" value="true" />
+      <created>1739710393762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739710393762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +186,8 @@
     <MESSAGE value="0205 jpa ㄷㅏㄴ방향 연관관계 실습코드 추가(강의 미완강)" />
     <MESSAGE value="0206 단방향연관관계 완강" />
     <MESSAGE value="0206 양방향연관관계" />
-    <option name="LAST_COMMIT_MESSAGE" value="0206 양방향연관관계" />
+    <MESSAGE value="0216 다대다 연관관계 청강중" />
+    <option name="LAST_COMMIT_MESSAGE" value="0216 다대다 연관관계 청강중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
