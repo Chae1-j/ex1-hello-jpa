@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0216 다대다 연관관계 청강중">
+    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0217 다대다 연관관계 완강">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,9 @@
       <workItem from="1739195176858" duration="682000" />
       <workItem from="1739707671386" duration="1885000" />
       <workItem from="1739798542776" duration="77000" />
-      <workItem from="1739799286227" duration="630000" />
+      <workItem from="1739799286227" duration="1753000" />
+      <workItem from="1739887773514" duration="1528000" />
+      <workItem from="1739889841155" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="0205 jpa ㄷㅏㄴ방향 연관관계 실습코드 추가(강의 미완강)">
       <option name="closed" value="true" />
@@ -165,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739710393762</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0217 다대다 연관관계 완강">
+      <option name="closed" value="true" />
+      <created>1739800959821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739800959821</updated>
+    </task>
+    <task id="LOCAL-00006" summary="0217 다대다 연관관계 완강">
+      <option name="closed" value="true" />
+      <created>1739800977197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739800977197</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +206,8 @@
     <MESSAGE value="0206 단방향연관관계 완강" />
     <MESSAGE value="0206 양방향연관관계" />
     <MESSAGE value="0216 다대다 연관관계 청강중" />
-    <option name="LAST_COMMIT_MESSAGE" value="0216 다대다 연관관계 청강중" />
+    <MESSAGE value="0217 다대다 연관관계 완강" />
+    <option name="LAST_COMMIT_MESSAGE" value="0217 다대다 연관관계 완강" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
