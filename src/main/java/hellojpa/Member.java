@@ -26,6 +26,10 @@ public class Member {
     @JoinColumn(name="TEAM_ID")
     private Team team;
 
+    @ManyToOne  // Locker와의 관계 설정
+    @JoinColumn(name = "locker_id")
+    private Locker locker;
+
     public Long getId() {
         return id;
     }
