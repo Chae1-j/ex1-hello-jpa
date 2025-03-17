@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0220 상속관계 매핑 코드추가">
+    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0223 상속관계 매핑 코드추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +103,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -135,7 +138,10 @@
       <workItem from="1739887773514" duration="1528000" />
       <workItem from="1739889841155" duration="385000" />
       <workItem from="1740057837877" duration="3400000" />
-      <workItem from="1740317074834" duration="845000" />
+      <workItem from="1740317074834" duration="976000" />
+      <workItem from="1740406377786" duration="780000" />
+      <workItem from="1740407635800" duration="3000" />
+      <workItem from="1742220544389" duration="1218000" />
     </task>
     <task id="LOCAL-00001" summary="0205 jpa ㄷㅏㄴ방향 연관관계 실습코드 추가(강의 미완강)">
       <option name="closed" value="true" />
@@ -201,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740063006851</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0223 상속관계 매핑 코드추가">
+      <option name="closed" value="true" />
+      <created>1740318188384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740318188384</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +240,8 @@
     <MESSAGE value="0217 다대다 연관관계 완강" />
     <MESSAGE value="0218 ㅅㅏㅇ속관계 매핑 진행중" />
     <MESSAGE value="0220 상속관계 매핑 코드추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="0220 상속관계 매핑 코드추가" />
+    <MESSAGE value="0223 상속관계 매핑 코드추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="0223 상속관계 매핑 코드추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
