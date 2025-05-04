@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0420 mapped superclass 강의 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,8 @@
       <workItem from="1740407635800" duration="3000" />
       <workItem from="1742220544389" duration="1373000" />
       <workItem from="1745155706249" duration="1730000" />
-      <workItem from="1745242624152" duration="1040000" />
+      <workItem from="1745242624152" duration="1273000" />
+      <workItem from="1746368983727" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="0205 jpa ㄷㅏㄴ방향 연관관계 실습코드 추가(강의 미완강)">
       <option name="closed" value="true" />
@@ -227,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745157397756</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0420 mapped superclass 강의 코드 추가">
+      <option name="closed" value="true" />
+      <created>1745243953291</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745243953291</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
