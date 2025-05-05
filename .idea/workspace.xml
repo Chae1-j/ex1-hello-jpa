@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0420 mapped superclass 강의 코드 추가">
+    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0504 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +141,8 @@
       <workItem from="1742220544389" duration="1373000" />
       <workItem from="1745155706249" duration="1730000" />
       <workItem from="1745242624152" duration="1273000" />
-      <workItem from="1746368983727" duration="347000" />
+      <workItem from="1746368983727" duration="1759000" />
+      <workItem from="1746456218013" duration="4683000" />
     </task>
     <task id="LOCAL-00001" summary="0205 jpa ㄷㅏㄴ방향 연관관계 실습코드 추가(강의 미완강)">
       <option name="closed" value="true" />
@@ -237,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745243953291</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="0504 코드 추가">
+      <option name="closed" value="true" />
+      <created>1746369863708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746369863708</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +276,8 @@
     <MESSAGE value="0223 상속관계 매핑 코드추가" />
     <MESSAGE value="0317 jpa 상속관계 매핑 코드" />
     <MESSAGE value="0420 mapped superclass 강의 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="0420 mapped superclass 강의 코드 추가" />
+    <MESSAGE value="0504 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="0504 코드 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

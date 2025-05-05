@@ -28,12 +28,12 @@ public class Member extends BaseEntity {
     @JoinColumn(name="TEAM_ID")
     private Team team;
 
-    @ManyToOne  // Locker와의 관계 설정
-    @JoinColumn(name = "LOCKER_ID")
-    private Locker locker;
-
-    @OneToMany(mappedBy = "member")
-    private List<MemberProduct> memberProducts = new ArrayList<>();
+//    @ManyToOne  // Locker와의 관계 설정
+//    @JoinColumn(name = "LOCKER_ID")
+//    private Locker locker;
+//
+//    @OneToMany(mappedBy = "member")
+//    private List<MemberProduct> memberProducts = new ArrayList<>();
 
 
     public Long getId() {
