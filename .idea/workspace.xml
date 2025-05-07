@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0504 코드 추가">
+    <list default="true" id="46ff959b-819c-42de-84b0-2ad22a620d57" name="Changes" comment="0506 프록시 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +99,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
       </set>
     </attachedChunks>
   </component>
@@ -142,7 +141,9 @@
       <workItem from="1745155706249" duration="1730000" />
       <workItem from="1745242624152" duration="1273000" />
       <workItem from="1746368983727" duration="1759000" />
-      <workItem from="1746456218013" duration="4683000" />
+      <workItem from="1746456218013" duration="5042000" />
+      <workItem from="1746625919982" duration="112000" />
+      <workItem from="1746626054826" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="0205 jpa ㄷㅏㄴ방향 연관관계 실습코드 추가(강의 미완강)">
       <option name="closed" value="true" />
@@ -248,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746369863708</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="0506 프록시 코드 추가">
+      <option name="closed" value="true" />
+      <created>1746462595340</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746462595340</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +286,8 @@
     <MESSAGE value="0317 jpa 상속관계 매핑 코드" />
     <MESSAGE value="0420 mapped superclass 강의 코드 추가" />
     <MESSAGE value="0504 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="0504 코드 추가" />
+    <MESSAGE value="0506 프록시 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="0506 프록시 코드 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

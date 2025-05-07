@@ -18,6 +18,10 @@ public class JpaMain {
         tx.begin();
 
         try {
+            Team team = new Team();
+            team.setName("Team 1");
+            em.persist(team);
+
             Member member1 = new Member();
             member1.setUsername("member1");
             em.persist(member1);
@@ -36,10 +40,16 @@ public class JpaMain {
 
             System.out.println("m1 =" + (m1.getClass()));
 
-            Member reference = em.getReference(Member.class, member1.getId());
-            System.out.println("reference =" + (reference.getClass()));
+            Member m = em.find(Member.class, member1.getId());
+            // System.out.println("reference =" + (reference.getClass()));
 
-            em.detach(reference);
+            System.out.println("m =" + (m.getTeam().getClass()));
+
+            System.out.println("=======================================================");
+            m.getTeam().getName(); // 지연로딩시 이 때 초기화 됨
+            System.out.println("=======================================================");
+
+
 
             tx.commit();
         } catch (Exception e) {
